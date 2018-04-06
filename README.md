@@ -1,5 +1,5 @@
 # 关于微信小游戏关系链数据的demo
-这是一个Cocos Creator项目，一个关于使用微信小游戏关系链数据的demo。
+这是一个Cocos Creator项目，一个关于微信小游戏关系链数据的demo。
 
 使用Cocos Creator开发微信小游戏如何实现类似跳一跳的好友排行以及群排行？
 
@@ -13,13 +13,15 @@
 
 ![](./data-flow.png)
 
-运行本项目要先改配置在game.json添加
+运行本项目要先改配置
+在game.json添加
 ```
 "openDataContext": "src/myOpenDataContext"
 ```
 把myOpenDataContext复制到src。
 
 截图
+
 ![](./rank.png)
 
 
